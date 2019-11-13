@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://DAOservice/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="serviceService" targetNamespace="http://DAOservice/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://192.168.1.100:8080/?xsd=1" namespace="http://DAOservice/" />
+    </xsd:schema>
+  </types>
+  <message name="AjouteSalarie">
+    <part name="parameters" element="tns:AjouteSalarie" />
+  </message>
+  <message name="AjouteSalarieResponse">
+    <part name="parameters" element="tns:AjouteSalarieResponse" />
+  </message>
+  <message name="RecupereListeSalarie">
+    <part name="parameters" element="tns:RecupereListeSalarie" />
+  </message>
+  <message name="RecupereListeSalarieResponse">
+    <part name="parameters" element="tns:RecupereListeSalarieResponse" />
+  </message>
+  <message name="ModifieSalarie">
+    <part name="parameters" element="tns:ModifieSalarie" />
+  </message>
+  <message name="ModifieSalarieResponse">
+    <part name="parameters" element="tns:ModifieSalarieResponse" />
+  </message>
+  <message name="SupprimeSalarie">
+    <part name="parameters" element="tns:SupprimeSalarie" />
+  </message>
+  <message name="SupprimeSalarieResponse">
+    <part name="parameters" element="tns:SupprimeSalarieResponse" />
+  </message>
+  <portType name="service">
+    <operation name="AjouteSalarie">
+      <input wsam:Action="http://DAOservice/service/AjouteSalarieRequest" message="tns:AjouteSalarie" />
+      <output wsam:Action="http://DAOservice/service/AjouteSalarieResponse" message="tns:AjouteSalarieResponse" />
+    </operation>
+    <operation name="RecupereListeSalarie">
+      <input wsam:Action="http://DAOservice/service/RecupereListeSalarieRequest" message="tns:RecupereListeSalarie" />
+      <output wsam:Action="http://DAOservice/service/RecupereListeSalarieResponse" message="tns:RecupereListeSalarieResponse" />
+    </operation>
+    <operation name="ModifieSalarie">
+      <input wsam:Action="http://DAOservice/service/ModifieSalarieRequest" message="tns:ModifieSalarie" />
+      <output wsam:Action="http://DAOservice/service/ModifieSalarieResponse" message="tns:ModifieSalarieResponse" />
+    </operation>
+    <operation name="SupprimeSalarie">
+      <input wsam:Action="http://DAOservice/service/SupprimeSalarieRequest" message="tns:SupprimeSalarie" />
+      <output wsam:Action="http://DAOservice/service/SupprimeSalarieResponse" message="tns:SupprimeSalarieResponse" />
+    </operation>
+  </portType>
+  <binding name="servicePortBinding" type="tns:service">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="AjouteSalarie">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="RecupereListeSalarie">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ModifieSalarie">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SupprimeSalarie">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="serviceService">
+    <port name="servicePort" binding="tns:servicePortBinding">
+      <soap:address location="http://192.168.1.100:8080/" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,20 @@
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\bin\Debug\JAVACsharpPROJECT.exe.config
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\bin\Debug\JAVACsharpPROJECT.exe
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\bin\Debug\JAVACsharpPROJECT.pdb
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.csprojAssemblyReference.cache
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.Form1.resources
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.Properties.Resources.resources
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.csproj.GenerateResource.cache
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.csproj.CoreCompileInputs.cache
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.exe
+C:\Users\Chebil\source\repos\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.pdb
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.Form1.resources
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.Properties.Resources.resources
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.csproj.GenerateResource.Cache
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.csproj.CoreCompileInputs.cache
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.exe
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.pdb
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\bin\Debug\JAVACsharpPROJECT.exe.config
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\bin\Debug\JAVACsharpPROJECT.exe
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\bin\Debug\JAVACsharpPROJECT.pdb
+C:\Users\Med Issam\Desktop\JAVACsharpPROJECT\JAVACsharpPROJECT\JAVACsharpPROJECT\obj\Debug\JAVACsharpPROJECT.csprojResolveAssemblyReference.cache

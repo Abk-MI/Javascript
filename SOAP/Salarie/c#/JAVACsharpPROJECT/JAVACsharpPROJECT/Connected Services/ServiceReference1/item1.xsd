@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://DAOservice/" targetNamespace="http://DAOservice/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AjouteSalarie" type="tns:AjouteSalarie" />
+  <xs:element name="AjouteSalarieResponse" type="tns:AjouteSalarieResponse" />
+  <xs:element name="ModifieSalarie" type="tns:ModifieSalarie" />
+  <xs:element name="ModifieSalarieResponse" type="tns:ModifieSalarieResponse" />
+  <xs:element name="RecupereListeSalarie" type="tns:RecupereListeSalarie" />
+  <xs:element name="RecupereListeSalarieResponse" type="tns:RecupereListeSalarieResponse" />
+  <xs:element name="SupprimeSalarie" type="tns:SupprimeSalarie" />
+  <xs:element name="SupprimeSalarieResponse" type="tns:SupprimeSalarieResponse" />
+  <xs:complexType name="ModifieSalarie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:salarie" />
+      <xs:element minOccurs="0" name="arg1" type="tns:salarie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="salarie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="adrs" type="xs:string" />
+      <xs:element name="code" type="xs:int" />
+      <xs:element minOccurs="0" name="depts" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element minOccurs="0" name="fonct" type="xs:string" />
+      <xs:element minOccurs="0" name="nom" type="xs:string" />
+      <xs:element minOccurs="0" name="prenom" type="xs:string" />
+      <xs:element name="tel" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ModifieSalarieResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SupprimeSalarie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:salarie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="SupprimeSalarieResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="RecupereListeSalarie">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="RecupereListeSalarieResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:salarie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AjouteSalarie">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:salarie" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="AjouteSalarieResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
