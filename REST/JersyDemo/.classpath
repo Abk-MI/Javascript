@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/aopalliance-repackaged-2.4.0-b27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/hk2-api-2.4.0-b27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/hk2-locator-2.4.0-b27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/hk2-utils-2.4.0-b27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/javax.inject-2.4.0-b27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/jersey-client-2.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/jersey-common-2.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/jersey-guava-2.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/jersey-media-jaxb-2.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/jersey-server-2.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/Jersey2.20/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/javax.jar/javax.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jackson-annotations-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jackson-core-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jackson-databind-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jackson-module-jaxb-annotations-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/javax.inject-2.5.0-b42.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/javax.ws.rs-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jersey-common-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jersey-entity-filtering-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/jersey-media-json-jackson-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Med Issam/Desktop/RESTFUL/jersey-media-json-jackson JAR 2.26/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
